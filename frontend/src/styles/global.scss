@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+  font-family: "Museo For Dell"; /*Can be any text*/
+  src: local("Museo For Dell"),
+    url("../fonts/Museo\ For\ Dell\ Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Trebuchet"; /*Can be any text*/
+  src: local("Trebuchet "),
+    url("../fonts/trebuc.ttf") format("truetype");
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #3274c8;
+  --red: #b91515;
+  --yellow: #fcb818;
+  --orange: #E36612;
+
+  --light-gray: #6e767d;
+  --dark-gray: #15181c;
+  
+  --dell-border: #2F3336;
+  --dell-gray: #22272E;
+
+  --dell-aqua: #3287BA;
+  --dell-green: #83C447;
+  --dell-purple: #662D8E;
+  --dell-yellow: #FCB818;
+  --dell-berry: #C82267;
+  --dell-red: #F0593E;
+  --dell-dark-blue: #153274;
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Museo For Dell";
+
+  &:focus{
+    outline: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Trebuchet";
+}
+
+body {
+  background: var(--black);
+}
+
+button {
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+
+  &:visited{
+    color: unset;
+  }
+}
+
+ul{
+  list-style: none!important;
+}

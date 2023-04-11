@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.content {
+  border-left: 1px solid var(--dell-border);
+  border-right: 1px solid var(--dell-border);
+  width: 90%;
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  border-bottom: 1px solid var(--dell-border);
+  width: 100%;
+
+  h1 {
+    margin-right: 3rem;
+    color: var(--white);
+    font-weight: lighter;
+  }
+
+  button {
+    background-color: var(--blue);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: var(--white);
+    border: none;
+    font-weight: 600;
+  }
+}
+
+.feed {
+  padding: 2rem;
+}

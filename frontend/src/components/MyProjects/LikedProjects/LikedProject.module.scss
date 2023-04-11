@@ -1,0 +1,99 @@
+.MainContent{
+  border-right: 1px solid var(--dell-border);
+  width: calc(100% - 326px);
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+}
+
+.ProjectsHeader{
+  border-bottom: 1px solid var(--dell-border);
+  position: relative;
+  padding: 19px 0px 20px 30px;
+
+  p{
+    font-family: 'Museo For Dell';
+    font-style: normal;
+    color: var(--blue);
+    font-size: 20px;
+
+    span{
+      color: var(--white);
+    }
+
+    a{
+      color: var(--white);
+
+      &:hover{
+        color: var(--blue);
+        border-bottom: 1px solid var(--blue);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.ProjectsList{
+  height: fit-content;
+  width: 100%;
+
+  div{
+    width: calc(100% - 60px);
+    height: calc(100% / 3);
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    right: 30px;
+    margin-top: 19px;
+
+    p{
+      color: var(--white);
+      font-family: 'Museo For Dell';
+      font-style: normal;
+      font-size: 16px;
+      padding: 15px 0px 0px 15px;
+
+      svg{
+        color: var(--red);
+        position: absolute;
+        right: 15px;
+      }
+    }
+
+    div{
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      height: fit-content;
+      position: relative;
+      left: 0;
+      padding-left: 15px;
+      margin-top: 10px;
+
+      span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 0px 10px 0px 10px;
+        height: 21px;
+        color: var(--white);
+        border: 1px solid var(--white);
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    span{
+      p{
+        color: var(--light-gray);
+        padding: 10px 15px 10px 15px;
+        font-family: 'Trebuchet MS';
+        font-style: normal;
+        font-size: 15px;
+        text-align: justify
+      }
+    }
+  }
+}

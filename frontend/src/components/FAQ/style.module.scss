@@ -1,0 +1,90 @@
+.app {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.cardlist {
+    width: 100%;
+}
+
+.classetitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button {
+        background-color: #3274c8;
+        border-radius: 30px;
+        // font-family: "Trebuchet";
+        font-size: 0.8em;
+        color: white;
+        padding: 0.5rem  1em;
+
+
+    }
+    h1{
+        // font-family:"Museo For Dell";
+        color: white;
+        font-weight: lighter;
+
+    }
+}
+
+.cardfaq{
+    width: calc(100% - 60px);
+    height: calc(100% / 3);
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    right: 30px;
+    margin-top: 19px;
+
+    p{
+      color: var(--white);
+      font-family: 'Museo For Dell';
+      font-style: normal;
+      font-size: 16px;
+      padding: 15px 0px 0px 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    div{
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      height: fit-content;
+      position: relative;
+      left: 0;
+      padding-left: 15px;
+      margin-top: 10px;
+
+      p{
+        padding: 0px 0px 0px 10px;
+      }
+
+      span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 0px 10px 0px 10px;
+        height: 21px;
+        color: var(--white);
+        border: 1px solid var(--white);
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    span{
+      p{
+        color: var(--light-gray);
+        padding: 10px 15px 10px 15px;
+        font-family: 'Trebuchet MS';
+        font-style: normal;
+        font-size: 15px;
+        text-align: justify
+      }
+    }
+  }

@@ -1,0 +1,23 @@
+.Footer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 292px;
+  height: 60px;
+  left: 25px;
+  top: 35px; 
+}
+
+.FooterTags{
+  font-family: 'Museo For Dell';
+  font-size: 12px;
+  color: var(--light-gray);
+}
+
+.FooterCopyright{
+  position: relative;
+  top: 15px;
+  font-family: 'Museo For Dell';
+  font-size: 12px;
+  color: var(--light-gray);
+}

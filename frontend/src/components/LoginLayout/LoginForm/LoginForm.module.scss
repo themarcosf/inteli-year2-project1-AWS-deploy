@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  text-align: center;
+  width: 55%;
+
+  h1 {
+    font-weight: lighter;
+    font-size: 4rem;
+    font-family: "Museo For Dell";
+    margin-bottom: 2rem;
+  }
+}
+
+.field {
+  margin: 2rem 1rem 4rem;
+
+  input {
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+
+    &::placeholder {
+      color: var(--white);
+    }
+  }
+}
+
+.actions {
+  button {
+    background-color: var(--blue);
+    border: none;
+    width: 95%;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+    color: var(--white);
+    transition: 200ms;
+
+    &:hover {
+      scale: 1.01;
+    }
+  }
+
+  p{
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+}

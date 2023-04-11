@@ -1,0 +1,48 @@
+.SideContent{
+  height: 100%;
+  width: 326px;
+  top: 0px;
+  bottom: 0px;
+  left: 732px;
+}
+
+.IntKeyWords{
+  position: relative;
+  width: 292px;
+  height: 100px;
+  left: 25px;
+  top: 13px;
+
+  background: var(--dark-gray);
+  border-radius: 10px;
+
+  p{
+    color: var(--white);
+    width: 292px;
+    height: 40px;
+    font-family: 'Museo For Dell';
+    font-size: 15px;
+    line-height: 18px;
+    padding: 11px 0px 0px 15px;
+  }
+}
+
+.AllKeyWords{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.SugKeyWords{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  height: 21px;
+  color: var(--light-gray);
+  border: 1px solid var(--light-gray);
+  border-radius: 10px;
+  left: 15px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}

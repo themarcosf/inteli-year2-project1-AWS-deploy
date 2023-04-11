@@ -1,0 +1,130 @@
+.cardContainer {
+  background-color: var(--dark-gray);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profilePictureBx {
+  width: 25px;
+  margin-right: 1rem;
+
+  img {
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+.profileInfoContent {
+  h4 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+
+  p {
+    color: var(--light-gray);
+  }
+}
+
+.actionContainer {
+  display: flex;
+  align-items: center;
+
+  svg {
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+
+  button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    border: 1px solid var(--blue);
+  }
+}
+
+.moreInfo {
+  background-color: transparent;
+  color: var(--blue);
+}
+
+.apply {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.cardTitle{
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+.cardContent{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.cardImg{
+    width: 50%;
+    max-width: 300px;
+    margin-right: 2rem;
+
+    img{
+        width: 100%;
+        border-radius: 1rem;
+    }
+}
+
+.projectInfos{
+    ul{
+        li{
+            margin-left: 1rem;
+            font-size: 1.7rem;
+            font-weight: bold;
+            letter-spacing: 0.8px;
+
+            span{
+                color: var(--light-gray);
+            }
+        }
+    }
+}
+
+.keyWords{
+    display: flex;
+    flex-direction: column;
+
+    div{
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+
+        p{
+            font-size: 1.5rem;
+            font-weight: lighter;
+            color: var(--white);
+            border: 1px solid var(--white);
+            border-radius: 1rem;
+            padding: 0.3rem 1rem;
+            margin-right: 2rem;
+            
+        }
+    }
+}
